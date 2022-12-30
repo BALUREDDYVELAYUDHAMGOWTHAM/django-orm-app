@@ -60,6 +60,11 @@ admin.site.register(Employee,EmployeeAdmin)
 Include the screenshot of your admin page.
 
 ![Employeelist](./image/createdemployeeid.png)
+    
+  verifying primary key
 ![Incorrectlist](./image/showingincorrectemployeeid.png)
 
 ## RESULT
+   
+    Finally,we developed a Django application to store and retrieved data from a database using Object Relational Mapping(ORM).
+  
