@@ -14,6 +14,8 @@ To develop a Django application to store and retrieve data from a database using
 ### STEP 2:
 2.Go to your theaid account.
 
+3.Use the command git startapp<filename>myapp
+
 ### STEP 3:
 
 3.Enter the various categories in models.py and admin.py.
@@ -24,11 +26,12 @@ To develop a Django application to store and retrieve data from a database using
 
 6.Then go to the website create a minimum of 10 employee id.
 
-## PROGRAM
+7.after finishing the project in theaid,then we have to push the details in theaid to github using commands like git origin main,git push etc.
 
-from django.db import models
-from django.contrib import admin
-# Create your models here.
+8.we would get the output in the git hub account.
+
+
+## PROGRAM
 ```python
 MODELS.PY
 class emoplyee(models.Model):
@@ -49,6 +52,9 @@ from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
 
 ```
+
+# Create your models here.
+
 ## OUTPUT
 
 Include the screenshot of your admin page.
